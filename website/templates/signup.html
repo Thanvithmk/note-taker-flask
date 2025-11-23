@@ -3,25 +3,25 @@
 
 {% block content %}
 
-    <div method="POST">
-        <h3 align=""center>Sign Up</h3>
-        <div class="from-group"
+    <form method="POST" action="">
+        <h3 class="mb-3">Sign Up</h3>
+        <div class="form-group">
             <label for="email">Email</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
         </div>
 
-        <div class="from-group"
+        <div class="form-group">
             <label for="firstname">First name</label>
-            <input type="firstname" class="form-control" id="firstname" name="firstname" placeholder="Enter First name" required>
+            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter First name" required>
         </div>
 
-        <div class="from-group"
+        <div class="form-group">
             <label for="password1">Password</label>
             <input type="password" class="form-control" id="password1" name="password1" placeholder="Enter Password" required>
         </div>
 
-        <div class="from-group"
-            <label for="password2">Password(confrim)</label>
+        <div class="form-group">
+            <label for="password2">Password (confirm)</label>
             <input type="password" class="form-control" id="password2" name="password2" placeholder="Confirm Password" required>
         </div>
         <br>
